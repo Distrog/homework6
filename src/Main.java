@@ -46,7 +46,7 @@ public class Main {
         System.out.println("Задача 9");
         float bankTotalSavings = 0;
         for (int i = 1; i <= 12; i++) {
-            bankTotalSavings *= 1.1f;
+            bankTotalSavings *= 1.01f;
             bankTotalSavings += monthSavings;
             System.out.println("Месяц " + i + " сумма накоплений равна " + bankTotalSavings + " рублей");
         }
